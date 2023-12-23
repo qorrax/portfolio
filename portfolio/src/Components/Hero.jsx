@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
-
+import { HiArrowNarrowRight } from 'react-icons/hi';
 const Hero = () => {
   return (
     <div className='text-white'>
@@ -24,7 +24,17 @@ const Hero = () => {
           />
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        {/* <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button> */}
+
+        <button
+              // onClick={toggleProjects}
+              className='text-white group border-2 w-[200px] rounded-md font-medium my-6 mx-auto py-3 pl-6 flex items-center hover:bg-pink-600 hover:border-pink-600'
+            >
+              View Work
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3 ' />
+              </span>
+            </button>
       </div>
     </div>
   );

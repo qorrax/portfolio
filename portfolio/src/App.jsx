@@ -41,7 +41,7 @@ import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import ScrollToTop from './Components/Nav/ScrollToTop';
-// import Footer from './Components/Footer';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -59,9 +59,11 @@ const App = () => {
         {/* Add a catch-all route */}
         <Route path="*" element={<About />} />
       </Routes>
-     <Hero /> 
+
+      <Hero /> {/* Include the Header component */} 
+        
       
-      {/* <Footer /> Include the Footer component */}
+      <Footer /> Include the Footer component
     </div>
   );
 };
