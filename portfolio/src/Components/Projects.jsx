@@ -3,11 +3,12 @@
 // create a new component called Projects
 // import the data from Data/Data.jsx file its outside of components folder
 // i want to map through the data and display the data in the browser
-//like  name, image, github, live
+// like  name, image, github, live
 
 
 import React from 'react';
 import tailwind from '../assets/tailwind.png';
+import rentme from '../assets/rentme.png';
 
 
 const projectsData = [
@@ -23,7 +24,7 @@ const projectsData = [
 
 const Projects = () => {
     return (
-       // create girid layout  for all the projects using tailwind css
+    //    create girid layout  for all the projects using tailwind css
 
         <div name='projects' className='w-full h-screen bg-[#00030] text-gray-300'>
 
@@ -59,13 +60,18 @@ const Projects = () => {
                         <p className='my-4'>Tailwind</p>
                     </div> 
                         <div className='shadow-md shadow-[  ] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={tailwind} alt="HTML icon" />
-                        <p className='my-4'>Tailwind</p>
+                        <img className='w-90 mx-auto' src={rentme} alt="HTML icon" />
+                        <p className='my-4'>rentme </p>
                     </div> 
                 </div>
             </div>
         </div>
+
+        
     )
 }
 
 export default Projects
+
+
+

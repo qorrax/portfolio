@@ -5,13 +5,13 @@ import {useState} from 'react';
 import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/Nav/NavBar';
-import Hero from './Components/Hero'; // Import the Header component
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import ScrollToTop from './Components/Nav/ScrollToTop';
 import Footer from './Components/Footer';
+import Hero from './Components/Hero';
 
 const App = () => {
 
@@ -27,10 +27,8 @@ const App = () => {
       toggletheme={toggletheme}
       darkMode={darkMode}
       />
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
+      
+      
 
 
       
