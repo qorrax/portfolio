@@ -1,6 +1,10 @@
 
 import React from 'react'
 import Hero from './Hero';
+import Projects from './Projects';
+import Skills from './Skills';
+import Contact from './Contact';
+
 
 
 const About = () => {
@@ -8,8 +12,12 @@ const About = () => {
     return (
 
         <div>  
-          <p> hello this is the about page </p>
-        <Hero />    
+          
+        <Hero /> 
+        <Projects />
+        <Skills />
+        <Contact />
+
         </div>
 
 
@@ -19,3 +27,4 @@ const About = () => {
 
 
 export default  About
+

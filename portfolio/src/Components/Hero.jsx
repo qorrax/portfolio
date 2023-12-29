@@ -5,25 +5,26 @@ const Hero = () => {
   return (
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>
+        <p className='text-[#00df9a] 3xl font-bold p-2'>
           Abdulkadir Mohamed
         </p>
-        <h1 className='md:text-5xl sm:text-6xl text-4xl font-bold md:py-6'>
+        <h1 className='md:text-2xl sm:text-2xl text-3xl font-bold md:py-6'>
           Sofware Developer
         </h1>
         <div className='flex justify-center items-center'>
-          <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-            Fast, Efficient, & Reliable
+          <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>
+            Efficient, & Creative
           </p>
           <Typed
           className='md:text-4xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-            strings={['Problem Solver', 'BTC', 'SASS']}
+            strings={['Problem Solver', 'Developer', 'Engineer']}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'> I’m a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive full-stack web applications.
+          </p>
         {/* <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button> */}
 
         <button
